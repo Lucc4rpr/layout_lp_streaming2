@@ -17,7 +17,7 @@
         background-image: url('../images/troia.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        filter: brightness(40%);
+        filter: brightness(30%);
         z-index: 1;
     }
 
@@ -63,7 +63,8 @@
 
         &__combos {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            margin-top: 50px;
 
             @media (max-width: 768px) {
                 display: block;
